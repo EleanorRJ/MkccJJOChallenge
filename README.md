@@ -1,5 +1,5 @@
 # JJO Challenge
-Create to the best of your ability, the given web page  
+Create, to the best of your ability, the given web page  
 
 Challenge set by Milton Keynes Codacademy Chapter
 To be presented on 24th Feb  
