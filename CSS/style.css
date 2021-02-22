@@ -1,9 +1,13 @@
+/*Utilities and General*/
 * {
     padding: 0;
     margin: 0;
 }
 
-/*Utilities and General*/
+:root {
+    --blue: #368ed6;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -11,7 +15,7 @@
 
 a {
     text-decoration: none;
-    color: #033dfc;
+    color: var(--blue);
 }
 
 .clr {
@@ -20,7 +24,7 @@ a {
 
 .button {
     color: #fff;
-    background-color: #033dfc;
+    background-color: var(--blue);
     padding: 5px 10px;
     margin: 2px;
     border-radius: 5px;
@@ -32,13 +36,16 @@ body {
     color: black;
     background-color: #fff;
     font-size: 100%;
+    line-height: 1.2em;
 }
 
 .banner {
     background-image: url(../images/hero-image.png);
     background-position:left;
+    height: auto;
     min-height: 250px;
     color: #fff;
+    margin-bottom: 50px;
 }
 
 .banner a{
@@ -53,16 +60,17 @@ header h1 {
     float:left;
     width: 20%;
     box-sizing: border-box;
+    margin-top: 10px;
 }
 
 nav {
     float: right;
     width: 80%;
     box-sizing: border-box;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     text-align: right;
 }
@@ -76,10 +84,49 @@ nav li {
     line-height: 3em;
 }
 
-.post-offer-now h2{
+.post-offer-now h2 {
     font-size: 2em;
 }
-.post-offer-now button{
+
+.post-offer-now button {
     margin-top: 10px;
 }
+
+.new-job-offers {
+    margin-bottom: 10px;
+}
+
+.new-job-offers h2 {
+    float:left;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.view-all-job-offers {
+    float:right;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.job-offer {
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+}
+
+.job-offer h3 {
+    color: var(--blue);
+}
+
+.job-offer small {
+    line-height: 5px;
+    line-height: 2em;
+}
+
+.job-offer a{
+    line-height: 3em;
+}
+
 
