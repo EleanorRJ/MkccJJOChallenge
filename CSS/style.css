@@ -171,3 +171,36 @@ nav li {
     text-align: center;
     font-size: 1em;
 }
+
+.newsletter-signup {
+    color: #fff;
+    background-color: #000;
+    position: relative;
+    margin-top: 5em;
+}
+
+.newsletter-signup img{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    background-color: #000;
+}
+
+.newsletter-signup h2 {
+    position: absolute;
+    top:50px;
+    left: 30px;
+}
+
+.newsletter-signup p{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    width: 40%;
+}
+
+.newsletter-signup form {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
