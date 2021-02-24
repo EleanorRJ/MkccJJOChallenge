@@ -175,8 +175,11 @@ nav li {
 .newsletter-signup {
     color: #fff;
     background-color: #000;
-    position: relative;
     margin-top: 5em;
+}
+
+.newsletter-signup .box {
+    position: relative;
 }
 
 .newsletter-signup img{
@@ -203,4 +206,25 @@ nav li {
     position: absolute;
     top: 150px;
     left: 30px;
+}
+
+footer {
+    margin-top: 300px;
+    margin-bottom: 5px;
+    color:#949494
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer li{
+    display: inline-block;
+    margin: 5px;
+}
+
+footer a{
+    font-size: 0.7em;
+    color: #3f3f3f;
 }
